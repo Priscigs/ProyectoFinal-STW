@@ -2,6 +2,7 @@ import React from 'react';
 import { useMediaQuery } from "react-responsive";
 import './StartApp.scss';
 import Computer from '../Computer/Computer';
+import Container2 from '../Container2/Container2'
 
 function StartApp() {
   const isDesktop = useMediaQuery({
@@ -27,6 +28,7 @@ function StartApp() {
   return (
     <>
         <Computer></Computer>
+        <Container2></Container2>
     </>
   );
 }
