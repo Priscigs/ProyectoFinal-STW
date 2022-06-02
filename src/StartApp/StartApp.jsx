@@ -1,40 +1,20 @@
 import React from 'react';
-import { useMediaQuery } from "react-responsive";
+
 import './StartApp.scss';
 import Computer from '../Computer/Computer';
-import Container2 from '../Container2/Container2'
+import Container2 from '../Container2/Container2';
 import Cv from '../CV/Cv';
 import Jobs from '../Jobs/Jobs';
 import Info from '../Info/Info';
 
 function StartApp() {
-  const isDesktop = useMediaQuery({
-    query: "(min-width: 1224px)"
-  });
-
-  const isTablet = useMediaQuery({
-    query: "(max-width: 1224px)"
-  });
-
-  const isMobile = useMediaQuery({
-    query: "(max-width: 786px)"
-  });
-
-  const isPortrait = useMediaQuery({
-    query: "(orientation: portrait)"
-  });
-
-  const isRetina = useMediaQuery({
-    query: "(max-resolution: 300dpi)"
-  });
-
   return (
     <>
-        <Computer></Computer>
-        <Container2></Container2>
-        <Cv></Cv>
-        <Jobs></Jobs>
-        <Info></Info>
+      <Computer />
+      <Container2 />
+      <Cv />
+      <Jobs />
+      <Info />
     </>
   );
 }
