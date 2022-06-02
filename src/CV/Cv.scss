@@ -1,0 +1,32 @@
+.grid-mainCV {
+    height: 700px;
+    vertical-align: baseline;
+    width:fit-content;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 280px;
+}
+
+.grid-containerCV {
+    display: grid;
+    height: 700px;
+    grid-template-columns: auto auto;
+    margin-top: 180px;
+    margin: 0 auto;
+    transition: transform .2s;
+}
+
+.grid-containerCV:hover {
+    transform: scale(1.4);
+}
+
+.encima {
+    position:relative;
+    top:-50px;
+    right: -30px;
+    border:none;
+}
+
+#sombra { 
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}

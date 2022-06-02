@@ -3,6 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import './StartApp.scss';
 import Computer from '../Computer/Computer';
 import Container2 from '../Container2/Container2'
+import Cv from '../CV/Cv';
 
 function StartApp() {
   const isDesktop = useMediaQuery({
@@ -29,6 +30,7 @@ function StartApp() {
     <>
         <Computer></Computer>
         <Container2></Container2>
+        <Cv></Cv>
     </>
   );
 }
