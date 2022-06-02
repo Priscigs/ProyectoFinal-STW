@@ -24,7 +24,7 @@
 
 .grid-containerI3 {
     display: grid;
-    grid-template-columns: auto auto auto; 
+    grid-template-columns: auto auto auto auto; 
     background-color: transparent;
     margin-right: 50px;
 }
@@ -61,4 +61,14 @@
 
 .textEmail {
     color: white;
+    margin-left: 60px;
+}
+
+.git {
+    margin-top: -10px;
+}
+
+.email {
+    margin-left: 55px;
+    margin-top: -10px;
 }

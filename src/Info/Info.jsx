@@ -4,6 +4,7 @@ import Logo from '../../assets/logo.png'
 import Insta from '../../assets/insta.png'
 import Face from '../../assets/face.png'
 import Link from '../../assets/link.png'
+import Git from '../../assets/git.png'
 import Email from '../../assets/email.png'
 
 function Info() {
@@ -21,7 +22,7 @@ function Info() {
                     </form>
                     <form method="get" action="http://facebook.com">
                         <button type="submit" className="btnI100">
-                            <img src={Face} height="30" width="30px"></img>
+                            <img className='git' src={Face} height="50" width="50px"></img>
                         </button>
                     </form>
                     <form method="get" action="https://www.linkedin.com">
@@ -29,11 +30,16 @@ function Info() {
                             <img src={Link} height="30" width="30px"></img>
                         </button>
                     </form>
+                    <form method="get" action="https://github.com/Priscigs/ProyectoFinal-STW">
+                        <button type="submit" className="btnI100">
+                            <img className='git' src={Git} height="50" width="50px"></img>
+                        </button>
+                    </form>
                 </div>
                 <div className='grid-containerI4'>
                     <form method="get" action="https://www.google.com/intl/es/gmail/about/">
                         <button type="submit" className="btnI100">
-                            <img src={Email} height="50" width="50px"></img>
+                            <img className='email' src={Email} height="50" width="50px"></img>
                             <div className='textEmail'>fatimag811@gmail.com</div>
                         </button>
                     </form>
