@@ -4,6 +4,8 @@ import './StartApp.scss';
 import Computer from '../Computer/Computer';
 import Container2 from '../Container2/Container2'
 import Cv from '../CV/Cv';
+import Jobs from '../Jobs/Jobs';
+import Info from '../Info/Info';
 
 function StartApp() {
   const isDesktop = useMediaQuery({
@@ -31,6 +33,8 @@ function StartApp() {
         <Computer></Computer>
         <Container2></Container2>
         <Cv></Cv>
+        <Jobs></Jobs>
+        <Info></Info>
     </>
   );
 }

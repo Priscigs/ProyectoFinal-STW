@@ -1,0 +1,64 @@
+.grid-containerI {
+    margin-bottom: 0px;
+    height: 350px;
+    vertical-align: baseline;
+    background-color: transparent;
+    background-position: 50% 50%;
+    margin-top: 70px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.grid-containerI2 {
+    margin-bottom: 0px;
+    height: 100px;
+    vertical-align: baseline;
+    background-color: transparent;
+    background-position: 50% 50%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-containerI3 {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    background-color: transparent;
+    margin-right: 50px;
+}
+
+.grid-containerI4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 100px;
+    vertical-align: baseline;
+    background-color: transparent;
+    background-position: 50% 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 40px;
+}
+
+.btnI100 {
+    padding: 0px;
+    margin-top: 30px;
+    border: transparent;
+    background-color: transparent;
+    padding-left: 50px;
+}
+  
+.btnI100:hover {
+    transform: scale(1.2);
+}
+
+.img {
+    border-radius: 50px;
+    margin-left: 690px;
+    margin-top: 50px;
+}
+
+.textEmail {
+    color: white;
+}

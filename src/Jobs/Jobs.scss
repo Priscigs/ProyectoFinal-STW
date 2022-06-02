@@ -1,0 +1,59 @@
+.grid-mainJobs {
+    margin-bottom: 0px;
+    height: 100px;
+    vertical-align: baseline;
+    background-color: transparent;
+    background-position: 50% 50%;
+    margin-top: -80px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.textJobs {
+    font-family: "Arial";
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.textJobsInfo {
+    font-family: "Arial";
+    font-size: 20px;
+    color: white;
+}
+
+.grid-containerJobs {
+    margin-bottom: 0px;
+    height: 300px;
+    vertical-align: baseline;
+    background-color: transparent;
+    background-position: 50% 50%;
+    margin-top: -80px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.cuadradosJobs {
+    height: 300px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: none;
+    margin-left: 30px;
+}
+
+.cuadradosJobs:hover {
+    transform: scale(1.1);
+}
+
+.imgJ {
+    border-radius: 50px;
+}
