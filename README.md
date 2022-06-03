@@ -1,6 +1,6 @@
 # ProyectoFinal-STW
 
-- PORTAFOLIO
+✨ PORTAFOLIO ✨
 
 - A continuación mi portafolio, el cuál contiene:
     - 👩🏽‍💻 Información acerca de mí, por lo tanto adjunto
