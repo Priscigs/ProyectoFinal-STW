@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
+    "babel-jest": "^28.1.0",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "eslint": "^8.16.0",
@@ -34,6 +36,7 @@
     "eslint-plugin-react-hooks": "^4.5.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
     "mini-css-extract-plugin": "^2.6.0",
     "prettier": "^2.6.2",
     "webpack": "^5.72.1",
@@ -47,6 +50,8 @@
     "react-responsive": "^9.0.0-beta.8",
     "reactstrap": "^9.0.3",
     "sass": "^1.52.1",
-    "sass-loader": "^13.0.0"
+    "sass-loader": "^13.0.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0"
   }
 }
